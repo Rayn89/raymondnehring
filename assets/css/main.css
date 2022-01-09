@@ -113,7 +113,7 @@ input, select, textarea {
 	.tech-icons{
 		height: 4rem;
 		display: flex;
-		width: 3rem;
+		width: 4rem;
 	}
 
 	#work{
@@ -139,6 +139,11 @@ input, select, textarea {
 			html {
 				font-size: 11pt;
 			}
+			.tech-icons{
+				/* height: 4rem;
+				display: flex; */
+				width: 3rem;
+			}
 
 		}
 
@@ -146,6 +151,40 @@ input, select, textarea {
 
 			html {
 				font-size: 10pt;
+			}
+
+			.tech-icons{
+				/* height: 4rem;
+				display: flex; */
+				width: 1rem;
+			}
+
+		}
+
+		@media screen and (max-width: 450px) {
+
+			html {
+				font-size: 10pt;
+			}
+
+			.tech-icons{
+				/* height: 4rem;
+				display: flex; */
+				width: 3rem;
+			}
+
+		}
+
+		@media screen and (max-width: 375px) {
+
+			html {
+				font-size: 10pt;
+			}
+
+			.tech-icons{
+				/* height: 4rem;
+				display: flex; */
+				width: 2.5rem;
 			}
 
 		}
