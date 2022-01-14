@@ -113,16 +113,17 @@ input, select, textarea {
 	.tech-icons{
 		height: 4rem;
 		display: flex;
-		width: 10%;
-		display: flex;
+		width: 2.2rem;
 		/* flex-wrap: wrap; */
 		flex-direction: row;
+		justify-content: center;
 	}
 
 	#work{
 		display: flex;
 		flex-direction: column;
 		width: 80vw;
+		align-items: center;
 	}
 
 	html {
@@ -187,7 +188,7 @@ input, select, textarea {
 			.tech-icons{
 				/* height: 4rem;
 				display: flex; */
-				width: 3rem;
+				/* width: 3rem; */
 			}
 
 		}
