@@ -769,13 +769,16 @@ input, select, textarea {
 			}
 
 		.image.main {
-			display: block;
+			display: flex;
 			margin: 2.5rem 0;
 			width: 100%;
+			justify-content: center;
 		}
 
 			.image.main img {
-				width: 100%;
+				width: 50%;
+				height: 17rem;
+				text-align: center;
 			}
 
 		@media screen and (max-width: 736px) {
