@@ -111,11 +111,21 @@ input, select, textarea {
 
 /* Type */
 	.tech-icons{
-		height: 4rem;
+		height: 2.5rem;
 		display: flex;
 		width: 2.2rem;
 		flex-direction: row;
 		justify-content: center;
+	}
+
+	.tech-container{
+		display: flex;
+		width:100%;
+		background: rgb(255, 255, 255);
+		justify-content: space-evenly;
+		border-radius: 10px;
+		height:fit-content;
+		padding: 10px;
 	}
 
 	#work{
