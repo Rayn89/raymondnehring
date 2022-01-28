@@ -1205,10 +1205,10 @@ input, select, textarea {
 		width: 100%;
 		height: 100vh;
 		z-index: 1;
-		background-position: center;
+		/* background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-image: url("../../images/bg.jpg");
+		background-image: url("../../images/bg.jpg"); */
 	}
 
 		#bg:before, #bg:after {
@@ -1249,11 +1249,11 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			/* background-image: url("../../images/bg.jpg"); */
-			background-position: center;
-			background-size: cover;
+			/* background-image: url("https://res.cloudinary.com/deaekdi5y/image/upload/v1643410645/photo-1642553517785-f1daee6ba12d_zcw0tv.jpg"); */
+			background-position:center;
+			background-size: 100%;
 			background-repeat: no-repeat;
-			object-fit: cover;
+			/* object-fit: cover; */
 			z-index: 1;
 		}
 
